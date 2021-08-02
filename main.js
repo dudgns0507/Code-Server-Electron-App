@@ -15,12 +15,19 @@ function createWindow() {
     }
   });
 
-  globalShortcut.register('f5', function() {
-		mainWindow.reload()
-	})
-	globalShortcut.register('CommandOrControl+R', function() {
-		mainWindow.reload()
-	})
+  app.on('browser-window-focus', () => {
+    globalShortcut.register('f5', function() {
+      mainWindow.reload()
+    })
+    globalShortcut.register('CommandOrControl+R', function() {
+      mainWindow.reload()
+    })
+  });
+
+  app.on('browser-window-blur', () => {
+      globalShortcut.unregister('CommandOrControl+R');
+      globalShortcut.unregister('F5');
+  });
 
   // and load the index.html of the app.
   mainWindow.loadURL("https://example.com/");

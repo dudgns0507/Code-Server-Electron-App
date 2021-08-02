@@ -4,8 +4,8 @@
   "description": "Code-Server electron app",
   "main": "main.js",
   "scripts": {
-    "start": "electron .", 
-    "build": "electron-builder build", 
+    "start": "electron .",
+    "build": "electron-builder build",
     "build:osx": "build --mac"
   },
   "author": "dudgns0507",
@@ -13,16 +13,16 @@
   "devDependencies": {
     "electron": "^13.1.7",
     "electron-builder": "^22.11.7"
-  }, 
+  },
   "build": {
     "mac": {
       "target": [
         "default"
-      ], 
+      ],
       "icon": "./default_dark.png"
-    }, 
+    },
     "dmg": {
-      "title": "Code-Server", 
+      "title": "Code-Server",
       "icon": "./default_dark.png"
     }
   }
