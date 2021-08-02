@@ -27,7 +27,7 @@ function createWindow() {
       globalShortcut.unregister('F5');
   });
 
-  mainWindow.loadURL("https://code.cropo.me/");
+  mainWindow.loadURL("https://example.com/");
   
   mainWindow.on("closed", function() {
     try {
