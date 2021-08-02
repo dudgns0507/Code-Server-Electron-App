@@ -23,7 +23,7 @@ function createWindow() {
 	})
 
   // and load the index.html of the app.
-  mainWindow.loadURL("https://code.cropo.me/");
+  mainWindow.loadURL("https://example.com/");
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
