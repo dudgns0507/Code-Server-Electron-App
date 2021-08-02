@@ -17,6 +17,5 @@ npm start
 
 # Build
 ```
-npm run build
-npm run-script build // Windows
+npm run-script build
 ```
