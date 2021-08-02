@@ -24,6 +24,17 @@
     "dmg": {
       "title": "Code-Server",
       "icon": "./default_dark.png"
+    }, 
+    "win": {
+      "target": [
+        "zip",
+        "nsis"
+      ],
+      "icon": "./default_dark.png"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
     }
   }
 }
