@@ -1,7 +1,8 @@
 # Code-Server-Electron-App
  Electron app for code-server (vscode)
 
-# Quick Start
+Quick Start
+-------
 Deploy code-server in your own server.
 (https://github.com/cdr/code-server)
 
@@ -10,18 +11,20 @@ Deploy code-server in your own server.
 mainWindow.loadURL("https://example.com/");
 ```
 
-# Run
+Run
+-------
 ```
 npm start
 ```
 
-# Build
+Build
+-------
 ```
 npm run-script build
 ```
 
-# License
-
+License
+-------
 ```
 MIT License
 
