@@ -1,5 +1,9 @@
 # Code-Server-Electron-App
  Electron app for code-server (vscode)
+<p align="center">
+    <img width="428" height="353" src="https://github.com/dudgns0507/Code-Server-Electron-App/blob/master/sample.png">
+    <img width="428" height="353" src="https://github.com/dudgns0507/Code-Server-Electron-App/blob/master/sample2.png">
+</p>
 
 Quick Start
 -------
